@@ -43,6 +43,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19 结构体案例2", "19 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20 通讯录管理系统", "20 通讯录管理系统\20 通讯录管理系统.vcxproj", "{A5A2B2E2-605C-4990-9489-122AF13BCB9D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21 设计立方体类", "21 设计立方体类\21 设计立方体类.vcxproj", "{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22 点和圆的关系", "22 点和圆的关系\22 点和圆的关系.vcxproj", "{03560614-A4E2-4F39-B584-0597DA017F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +215,22 @@ Global
 		{A5A2B2E2-605C-4990-9489-122AF13BCB9D}.Release|x64.Build.0 = Release|x64
 		{A5A2B2E2-605C-4990-9489-122AF13BCB9D}.Release|x86.ActiveCfg = Release|Win32
 		{A5A2B2E2-605C-4990-9489-122AF13BCB9D}.Release|x86.Build.0 = Release|Win32
+		{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}.Debug|x64.ActiveCfg = Debug|x64
+		{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}.Debug|x64.Build.0 = Debug|x64
+		{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}.Debug|x86.ActiveCfg = Debug|Win32
+		{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}.Debug|x86.Build.0 = Debug|Win32
+		{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}.Release|x64.ActiveCfg = Release|x64
+		{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}.Release|x64.Build.0 = Release|x64
+		{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}.Release|x86.ActiveCfg = Release|Win32
+		{6206D8E4-5203-467A-AD4A-0144DCB1BCCD}.Release|x86.Build.0 = Release|Win32
+		{03560614-A4E2-4F39-B584-0597DA017F04}.Debug|x64.ActiveCfg = Debug|x64
+		{03560614-A4E2-4F39-B584-0597DA017F04}.Debug|x64.Build.0 = Debug|x64
+		{03560614-A4E2-4F39-B584-0597DA017F04}.Debug|x86.ActiveCfg = Debug|Win32
+		{03560614-A4E2-4F39-B584-0597DA017F04}.Debug|x86.Build.0 = Debug|Win32
+		{03560614-A4E2-4F39-B584-0597DA017F04}.Release|x64.ActiveCfg = Release|x64
+		{03560614-A4E2-4F39-B584-0597DA017F04}.Release|x64.Build.0 = Release|x64
+		{03560614-A4E2-4F39-B584-0597DA017F04}.Release|x86.ActiveCfg = Release|Win32
+		{03560614-A4E2-4F39-B584-0597DA017F04}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
