@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{12a0a74a-9768-42ea-aa07-5ae15644b947}</ProjectGuid>
-    <RootNamespace>My01打印HelloWorld</RootNamespace>
+    <ProjectGuid>{6cbd60b6-841b-4b94-8a36-2642661e8e13}</ProjectGuid>
+    <RootNamespace>My26静态成员与静态成员函数</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="hello world.cpp" />
+    <ClCompile Include="静态成员.cpp" />
+    <ClCompile Include="静态成员函数.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h" />
+    <ClInclude Include="static_member.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

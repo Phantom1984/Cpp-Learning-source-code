@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{12a0a74a-9768-42ea-aa07-5ae15644b947}</ProjectGuid>
-    <RootNamespace>My01打印HelloWorld</RootNamespace>
+    <ProjectGuid>{6cbf1ae1-f9ff-4694-8fa0-c00ff35d5c6d}</ProjectGuid>
+    <RootNamespace>My27this指针</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="hello world.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="startup.h" />
+    <ClCompile Include="this指针.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

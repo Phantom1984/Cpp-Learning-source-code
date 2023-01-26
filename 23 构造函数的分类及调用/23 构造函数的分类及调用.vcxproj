@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{12a0a74a-9768-42ea-aa07-5ae15644b947}</ProjectGuid>
-    <RootNamespace>My01打印HelloWorld</RootNamespace>
+    <ProjectGuid>{cedf9969-45f8-42a6-81e7-5626d7fb60af}</ProjectGuid>
+    <RootNamespace>My23构造函数的分类及调用</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="hello world.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="startup.h" />
+    <ClCompile Include="构造函数的分类及调用.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
