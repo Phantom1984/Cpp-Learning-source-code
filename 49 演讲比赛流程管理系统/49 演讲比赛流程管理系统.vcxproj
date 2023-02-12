@@ -18,12 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\49 基于STL的演讲比赛流程管理系统\演讲比赛流程管理系统.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a905a832-f6c1-4b3a-befb-297f769313d6}</ProjectGuid>
-    <RootNamespace>My34文件操作</RootNamespace>
+    <ProjectGuid>{11c7ae72-ed6f-4d96-9a51-9bfd44ca12f6}</ProjectGuid>
+    <RootNamespace>My49演讲比赛流程管理系统</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>49 基于STL的演讲比赛流程管理系统</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -138,13 +142,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="startup.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="二进制文件-读写文件.cpp" />
-    <ClCompile Include="文本文件-读写文件.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

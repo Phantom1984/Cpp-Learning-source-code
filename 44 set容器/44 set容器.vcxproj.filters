@@ -15,16 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="set构造和赋值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set大小和交换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set插入和删除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set查找和统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pair对组创建.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set容器排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="文本文件-读写文件.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="二进制文件-读写文件.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="myset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

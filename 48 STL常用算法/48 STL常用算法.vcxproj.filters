@@ -15,15 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="文本文件-读写文件.cpp">
+    <ClCompile Include="常用遍历算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="二进制文件-读写文件.cpp">
+    <ClCompile Include="常用查找算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="常用排序算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="常用拷贝和替换算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="常用算术生成算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="常用集合算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

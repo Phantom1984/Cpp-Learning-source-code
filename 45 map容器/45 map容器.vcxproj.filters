@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="map构造与赋值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="map常用接口.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="map容器排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="文本文件-读写文件.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="二进制文件-读写文件.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="mymap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -15,15 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="文本文件-读写文件.cpp">
+    <ClCompile Include="STL案例2-员工分组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="二进制文件-读写文件.cpp">
+    <ClCompile Include="STL员工分组-黑马程序员版.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a905a832-f6c1-4b3a-befb-297f769313d6}</ProjectGuid>
-    <RootNamespace>My34文件操作</RootNamespace>
+    <ProjectGuid>{fd47c471-7c0c-4bd0-9eaa-01d1ce9c7dd5}</ProjectGuid>
+    <RootNamespace>My45map容器</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h" />
+    <ClCompile Include="map容器排序.cpp" />
+    <ClCompile Include="map常用接口.cpp" />
+    <ClCompile Include="map构造与赋值.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="二进制文件-读写文件.cpp" />
-    <ClCompile Include="文本文件-读写文件.cpp" />
+    <ClInclude Include="mymap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,15 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="文本文件-读写文件.cpp">
+    <ClCompile Include="vector存放内置数据类型.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="二进制文件-读写文件.cpp">
+    <ClCompile Include="vector存放自定义数据类型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vector容器嵌套容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

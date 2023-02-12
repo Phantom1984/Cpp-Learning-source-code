@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="deque容器基本概念.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deque容器-排序操作.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="文本文件-读写文件.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="二进制文件-读写文件.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="deque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

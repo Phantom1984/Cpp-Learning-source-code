@@ -15,15 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="文本文件-读写文件.cpp">
+    <ClCompile Include="函数对象.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="二进制文件-读写文件.cpp">
+    <ClCompile Include="谓词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内建函数对象-算数仿函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内建函数对象-关系仿函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

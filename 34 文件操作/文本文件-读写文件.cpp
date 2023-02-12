@@ -21,29 +21,49 @@ void readFile()
 	//1.包含头文件 fstream
 	ifstream ifs;
 	//2.创建流对象
-	ifs.open("test.txt", ios::in);
+	ifs.open("text.txt", ios::in); 
 	//3.打开文件，并且判断是否打开成功
+	
 	if (!ifs.is_open())
 	{
 		cout << "文件打开失败" << endl;
 		return;
 	}
 	//4.读数据
-	/*第一种*/
+	/*第一种
 	char buf[1024] = { 0 };
-	while (ifs >> buf)//将ifs中的数据存入buf中
+	while (ifs >> buf)
+	{
+		cout << buf << endl;
+	}*/
+	/*第二种
+	char buf[1024] = { 0 };
+	while (ifs.getline(buf,sizeof(buf)))
+	{
+		cout << buf << endl;
+	}*/
+	//第三种
+	string buf;
+	while (getline(ifs, buf))
 	{
 		cout << buf << endl;
 	}
+	/*第四种，单个字符逐个读取，不推荐
+	char c;
+	while ((c=ifs.get())!=EOF)//EOF:end of file，文件尾部标志
+	{
+		cout << c << endl;
+	}*/
 	//5.关闭文件
 	ifs.close();
 }
-
+/*
 int main()
 {
+	//writeFile();
 	readFile();
 }
-
+*/
 /*
 总结：
 文件操作必须包含头文件 fstream

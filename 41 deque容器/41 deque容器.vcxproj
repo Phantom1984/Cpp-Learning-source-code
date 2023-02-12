@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a905a832-f6c1-4b3a-befb-297f769313d6}</ProjectGuid>
-    <RootNamespace>My34文件操作</RootNamespace>
+    <ProjectGuid>{1e0e2862-f041-40cc-9428-5b6b883632d3}</ProjectGuid>
+    <RootNamespace>My41deque容器</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="startup.h" />
+    <ClCompile Include="deque容器-排序操作.cpp" />
+    <ClCompile Include="deque容器基本概念.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="二进制文件-读写文件.cpp" />
-    <ClCompile Include="文本文件-读写文件.cpp" />
+    <ClInclude Include="deque.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
